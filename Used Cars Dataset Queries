@@ -99,5 +99,3 @@ get avg_savings.csv
 Select make_name, price from usedcartestfinal
 
 ```	
-	
-//
