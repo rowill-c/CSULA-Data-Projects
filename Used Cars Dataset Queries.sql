@@ -88,7 +88,7 @@ ORDER BY Average_Savings DESC
 LIMIT 1000;
 
 $ hdfs dfs -get usedcars/000000_0 avg_savings.csv
-psftp: open kdelat15@129.150.64.74
+psftp: open kdelat15@xx.xxx.xxx
 ls
 get avg_savings.csv
 
@@ -100,4 +100,3 @@ Select make_name, price from usedcartestfinal
 	
 //
 
-	 !connect jdbc:hive2://bigdai-nov-bdcsce-1:2181,bigdai-nov-bdcsce-2:2181,bigdai-nov-bdcsce-3:2181/;serviceDiscoveryMode=zooKeeper;zooKeeperNamespace=hiveserver2?tez.queue.name=interactive  bdcsce_admin
