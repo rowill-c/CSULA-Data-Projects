@@ -37,7 +37,7 @@ use joshuakoa_usedcarstest_db;
 load data inpath 'usedcars/used_cars_data.csv' into table usedcars;
 
 !connect jdbc:hive2://bigdai-nov-bdcsce-1:2181,bigdai-nov-bdcsce-2:2181,bigdai-nov-bdcsce-3:2181/;serviceDiscoveryMode=zooKeeper;zooKeeperNamespace=hiveserver2?tez.queue.name=interactive  bdcsce_admin
-
+```
 
 
 
@@ -100,5 +100,3 @@ Select make_name, price from usedcartestfinal
 	
 	
 //
-
-```
