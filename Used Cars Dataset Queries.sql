@@ -1,4 +1,4 @@
-```mysql
+```sql
 Create Table UsedCars (year string, make_name string, model_name string, body_type string, transmission string, listing_color string, price string, is_new string, owner_count string, latitude string, longitude string);
 
 
@@ -101,3 +101,4 @@ Select make_name, price from usedcartestfinal
 	
 //
 
+```
