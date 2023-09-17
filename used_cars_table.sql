@@ -1,6 +1,4 @@
-
 Create Table UsedCars (year string, make_name string, model_name string, body_type string, transmission string, listing_color string, price string, is_new string, owner_count string, latitude string, longitude string);
-
 
 CREATE EXTERNAL TABLE UsedCars (year string, make_name string, model_name string, body_type string, transmission string, listing_color string, price string, is_new string, owner_count string, latitude string, longitude string)
 ROW FORMAT DELIMITED
@@ -25,7 +23,6 @@ STORED AS TEXTFILE
 TBLPROPERTIES ('skip.header.line.count'='1');
 
 LOCATION '/user/joshuakoa/itversity/used_cars_data.csv';
-
 
 unzip archive.zip
 hdfs dfs -mkdir usedcars
